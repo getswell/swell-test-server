@@ -1,0 +1,20 @@
+{
+  "name": "swell",
+  "version": "1.0.0",
+  "description": "Swell",
+  "main": "main.js",
+  "scripts": {
+    "server": "nodemon test-server/server.js"
+  },
+  "author": "Schno Mozingo",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "ws": "^6.1.2"
+  }
+}
